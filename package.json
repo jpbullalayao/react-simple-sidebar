@@ -2,7 +2,7 @@
   "name": "react-simple-sidebar",
   "version": "0.0.1",
   "description": "A simple sidebar component for your React application",
-  "main": "index.ts",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,22 @@
   "bugs": {
     "url": "https://github.com/jpbullalayao/react-simple-sidebar/issues"
   },
-  "homepage": "https://github.com/jpbullalayao/react-simple-sidebar#readme"
+  "homepage": "https://github.com/jpbullalayao/react-simple-sidebar#readme",
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.424.0",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "react": "^18.3.1",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "tailwindcss": "^3.4.4"
+  }
 }
