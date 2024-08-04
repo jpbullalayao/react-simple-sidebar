@@ -1,0 +1,27 @@
+{
+  "name": "react-simple-sidebar",
+  "version": "0.0.1",
+  "description": "A simple sidebar component for your React application",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpbullalayao/react-simple-sidebar.git"
+  },
+  "keywords": [
+    "react-simple-sidebar",
+    "sidebar",
+    "navigation",
+    "react-sidebar",
+    "menu",
+    "nav"
+  ],
+  "author": "Jourdan Bul-lalayao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpbullalayao/react-simple-sidebar/issues"
+  },
+  "homepage": "https://github.com/jpbullalayao/react-simple-sidebar#readme"
+}
