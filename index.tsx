@@ -9,7 +9,7 @@ import {
   Sheet,
   SheetContent,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "./src/components/ui/sheet";
 
 interface Props extends PropsWithChildren {
   MenuIcon?: React.ReactNode;
