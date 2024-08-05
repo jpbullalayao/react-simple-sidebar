@@ -48,7 +48,7 @@ export const Sidebar: React.FC<Props> = ({
       <SheetTrigger>
         {MenuIcon}
       </SheetTrigger>
-      <SheetContent side="left" className={className}> 
+      <SheetContent className={className}> 
         {children}
       </SheetContent>
     </Sheet>

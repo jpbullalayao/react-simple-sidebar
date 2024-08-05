@@ -4,7 +4,9 @@ react-simple-sidebar provides a simple but customizable Sidebar component that e
 
 ## Usage
 
-By default, the `<Sidebar>` component already renders a clickable menu icon to toggle the sidebar, and manages the visibility state. Thus, `children` is the primary prop that will need to be configured to render what content you would like inside the sidebar. However, the current API allows you to provide custom functionality & styles to meet your needs. The API is outlined below.
+This project aims to be minimalistic in its API implementation & as-unopinionated-as-possible with styles so that you can customize the sidebar to meet your needs.
+
+By default, the `<Sidebar>` component already renders a clickable menu icon to toggle the sidebar, and manages the visibility state. Thus, `children` is the primary prop that will need to be configured to render what content you would like inside the sidebar. However, the current API allows you to provide custom functionality & styles. The API is outlined below.
 
 ```jsx
 import { Sidebar } from "react-simple-sidebar";
@@ -17,14 +19,14 @@ export const Page = () => {
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><aa href="/blog">Blog</a></li>
-        <ul>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
 
         <hr />
 
         <ul>
           <li><a href="/login">Login</a></li>
-          <li><a href="/signup">Sign Up</a><li>
+          <li><a href="/signup">Sign Up</a></li>
         </ul>
       </Sidebar>
     </>
