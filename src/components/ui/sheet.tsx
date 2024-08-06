@@ -45,7 +45,7 @@ const SheetContent = React.forwardRef<
     <SheetPrimitive.Content
       ref={ref}
       className={cn(
-        "fixed z-50 gap-4 p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500 inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",
+        "fixed z-50 p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500 inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",
         className
       )}
       {...props}
@@ -54,11 +54,11 @@ const SheetContent = React.forwardRef<
       <VisuallyHidden.Root><SheetTitle /></VisuallyHidden.Root>
       
       {children}
-    </SheetPrimitive.Content>
 
-    <SheetClose className="absolute z-50 right-4 top-4">
-      <X className="h-6 w-6" color="white" />
-    </SheetClose>
+      <SheetClose className="absolute z-50 right-4 top-4">
+        <X className="h-6 w-6" color="white" />
+      </SheetClose>
+    </SheetPrimitive.Content>
   </SheetPortal>
 ))
 SheetContent.displayName = SheetPrimitive.Content.displayName
