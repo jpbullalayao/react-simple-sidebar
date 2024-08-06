@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true
   },
+  "exclude": ["node_modules"]
 }
