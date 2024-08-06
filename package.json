@@ -1,6 +1,6 @@
 {
   "name": "react-simple-sidebar",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple sidebar component for your React application",
   "main": "src/index.tsx",
   "repository": {
